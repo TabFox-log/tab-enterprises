@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --link: #4da6ff;
+    --link-active: #3399ff;
+    --link-visited: #809eff;
+    --link-hover: #66c2ff;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #121415;
+    color: #FFF;
+}
+
+h1 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 8vh auto;
+    text-align: center;
+    font-size: 8vh;
+    transition: scale .5s cubic-bezier(.17, .67, .49, .97);
+}
+
+h1:hover {
+    scale: 102%;
+}
+
+
+h2 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 18 auto;
+    padding-top: 0;
+    text-align: center;
+    font-size: 4vh;
+    transition: scale .5s cubic-bezier(.17, .67, .49, .97);
+}
+
+h2:hover {
+    scale: 102%;
+}
+
+p {
+    margin: auto 10vw;
+    font-size: 2vh;
+    text-align: center;
+    transition: scale .5s cubic-bezier(.17, .67, .49, .97);
+}
+
+p:hover {
+    scale: 101%;
+}
+
+button {
+    transition: font-size .5s cubic-bezier(.17, .67, .49, .97), font-weight, border-width;
+    text-decoration: none;
+    color: var(--link);
+    background-color: #121415;
+    border-width: 1px;
+    border-radius: 40px;
+    padding: 12px;
+    font-size: 1.5vh;
+    border-color: var(--link);
+    border-style: solid;
+    margin: auto 5px;
+}
+
+button:active {
+    color: var(--link-active);
+    border-color: var(--link-active);
+    border-width: 2px;
+}
+
+button:visited {
+    color: var(--link-visited);
+    border-color: var(--link-visited);
+}
+
+button:hover {
+    color: var(--link-hover);
+    border-color: var(--link-hover);
+    font-weight: bold;
+    font-size: 2vh;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin: 6rem 0 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gradient {
+    background: linear-gradient(90deg, rgba(255, 153, 143, 1) 0%, rgba(255, 156, 0, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
