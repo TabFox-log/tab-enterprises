@@ -40,11 +40,11 @@ h2 {
     padding-top: 0;
     text-align: center;
     font-size: 4vh;
-    transition: scale .5s cubic-bezier(.17, .67, .49, .97);
+    transition: font-size .5s cubic-bezier(.17, .67, .49, .97);
 }
 
 h2:hover {
-    scale: 102%;
+    font-size: 4.5vh;
 }
 
 p {
