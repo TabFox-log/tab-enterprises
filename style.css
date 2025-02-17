@@ -23,11 +23,11 @@ h1 {
     margin: 8vh auto;
     text-align: center;
     font-size: 8vh;
-    transition: scale .5s cubic-bezier(.17, .67, .49, .97);
+    transition: font-size .5s cubic-bezier(.17, .67, .49, .97);
 }
 
 h1:hover {
-    scale: 102%;
+    font-size: 102%;
 }
 
 
