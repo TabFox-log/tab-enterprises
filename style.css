@@ -97,8 +97,56 @@ a {
     text-decoration: none;
 }
 
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 512px;
+    margin-top: 40px;
+    border-radius: 60px;
+    border: 6px #fff;
+    border-style: solid;
+    transition: scale .5s cubic-bezier(.17, .67, .49, .97);
+}
+
 .gradient {
     background: linear-gradient(90deg, rgba(255, 153, 143, 1) 0%, rgba(255, 156, 0, 1) 100%);
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.img-grid{
+    display: flex;
+    align-items: center;
+}
+
+.img-grid-general{
+    margin-right: auto;
+    margin-left: auto;
+    transition: scale .5s cubic-bezier(.17, .67, .49, .97);
+}
+
+
+.img-grid-left{
+    margin-right: 20px;
+    margin-left: auto;
+    transition: scale .5s cubic-bezier(.17, .67, .49, .97);
+}
+
+.img-grid-right {
+    margin-right: auto;
+    margin-left: 20px;
+    transition: scale .5s cubic-bezier(.17, .67, .49, .97);
+}
+
+.img-grid-general:hover,
+.img-grid-left:hover,
+.img-grid-right:hover {
+    scale: 110%;
+}
+
+.img-desc{
+    color: #646464;
+    font-size: small;
+    margin: 10px auto;
 }
